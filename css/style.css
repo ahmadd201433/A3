@@ -117,7 +117,7 @@ label #cancel{
 }
 section {
     padding: 95px 95px;
-}
+} 
 .main{
     width: 100%;
     min-height: 100vh;
@@ -127,7 +127,7 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-}
+} 
 .main-card {
     background-color: #FDA80D;
     width: 20.25em ;
@@ -254,7 +254,9 @@ section {
  .work-image {
     text-align: center; 
     margin-top: 10px;
-
+  }
+  .azure {
+    width: 7em;
   }
  .work-info {
     padding: 1em;
@@ -313,10 +315,11 @@ section {
     text-align: center;
 }
 #viewmor p {
-    font-size: 0.7em; ;
+    font-size: 1em; ;
     margin-top: 5px;
 }
-#viewmor h3 {
+#viewmor h5 {
+    margin-top: 10px;
     color: #0a5275;
     font-size: 0.6em;
     
