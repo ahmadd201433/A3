@@ -109,7 +109,7 @@ label #cancel{
 /* end sidebar */
 
 #check:checked ~ #allsection{
-    margin-left: 250px;
+    margin-left: 200px;
 
 }
 #allsection{
@@ -123,26 +123,27 @@ section {
     min-height: 100vh;
     display:flex;
     align-items: center;
-    background: url(../amg/back.png) no-repeat;
+    /*background: url(../amg/nbbn.png) no-repeat;*/
+    background-color:#063146;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
 } 
 .main-card {
-    background-color: #FDA80D;
-    width: 20.25em ;
-    box-shadow: 0 5px 20px rgba(1, 1, 1 ,15%);
+    background-color: #ffffff;
+    width: 20em ;
+    box-shadow: 20px 30px rgba(1, 1, 1 ,15%);
     border-radius: 10px;
-    padding: 20px;
+    padding: 30px;
     margin-top: 70px;
     transition: 0.7s ease;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 .main-card:hover {
     transform: scale(1.1);
 }
 .main-info h3 {
-    color: white;
+    color: rgb(243, 6, 6);
     font-size: 1.8em;
     font-weight: 500;
     text-align: center;
@@ -233,8 +234,6 @@ section {
 .work {
     background-color: #042331;
 }
-.work .content {
-}
 .work-card {
     background-color: white;
     border: 1px solid #fff;
@@ -279,12 +278,13 @@ section {
  .more-details:hover {
     color: #0a5275;
  }
- .bar {
-    background-color: #042331;
-    height: 50px;
- }
 
- /*---------------------------*/
+ /*------- next ------------*/
+ .bars {
+    border-style: double;
+    border-width: thick;
+    color: white; 
+}
  .btnsearch  { 
     width: 55px;
     height: 35px;
@@ -295,7 +295,7 @@ section {
 .btnsearch i {
     color: #fff;
 }
-.textsearch {
+#searchbar {
     height: 35px;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -308,15 +308,20 @@ section {
 .btnsearch:hover {
     color: #36bdfc;
 }
-.textsearch:hover {
+#searchbar:hover {
     transform: scale(1.1);
+}
+.imag {
+    display: flex;
+    height: 6em;
+    margin: 20px;
 }
 #viewmor {
     text-align: center;
 }
 #viewmor p {
     font-size: 1em; ;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 #viewmor h5 {
     margin-top: 10px;
@@ -324,9 +329,35 @@ section {
     font-size: 0.6em;
     
 }
-.imag {
-    margin-top: 10px;
-    display: flex;
-    height: 7em;
 
+
+.parent {
+    display: flex;
+    flex-wrap: wrap;
 }
+.child {
+    width: calc(33% - 10px);
+    height: 100px;
+    background-color: #36bdfc;
+    margin-left: 10px;
+    margin-top: 10px;
+}/*
+@media (min-width: 640px) {
+    .child{
+        width: calc(25% - 10px);
+    }
+}
+@media (min-width: 940px) {
+    .child{
+        width: calc(20% - 10px);
+    }
+}
+*/
+
+
+
+
+.bar {
+    background-color: #042331;
+    height: 50px;
+ }
