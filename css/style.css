@@ -128,7 +128,8 @@ section {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-} 
+}
+/* 
 .main-card {
     background-color: #ffffff;
     width: 20em ;
@@ -148,7 +149,7 @@ section {
     font-weight: 500;
     text-align: center;
 }
-
+*/
 
 /*
 .main hs {
@@ -170,7 +171,54 @@ section {
     letter-spacing: 1px;
     margin-top: 10px;
 } */
-.title {
+.work {
+    background-color: #042331;
+}
+.work-card {
+    background-color: white;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 18em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+ .work-card:hover {
+    transform: scale(1.1);
+ }
+ .work-card:hover .work-image {
+    opacity: 0.8;
+ }
+ .work-image {
+    text-align: center; 
+    margin-top: 10px;
+  }
+  .office {
+    width: 7em;
+  }
+ .work-info {
+    padding: 1em;
+    text-align: center;
+ }
+ .work-category {
+    font-size: 0.8em;
+    color: #000;
+ }
+ .work-title {
+       text-transform: uppercase;
+       font-weight: 800;
+       margin-top: 10px;
+       text-align: center;
+ }
+ .more-details{
+    text-decoration: none;
+    color: #042331;
+ }
+ .more-details:hover {
+    color: #0a5275;
+ }
+ .title {
     display: flex;
     justify-content: center;
     color: #0a5275;
@@ -208,7 +256,7 @@ section {
 #iexper i{
     color: #0a5275;
     padding: 2px;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 .infoo i{
     color:#063146;
@@ -231,59 +279,12 @@ section {
     font-weight: 700;
     margin: 10px;
 }
-.work {
-    background-color: #042331;
-}
-.work-card {
-    background-color: white;
-    border: 1px solid #fff;
-    min-height: 14em;
-    width: 18em;
-    overflow: hidden;
-    border-radius: 10px;
-    margin: 20px;
-    transition: 0.7s ease;
-}
- .work-card:hover {
-    transform: scale(1.1);
- }
- .work-card:hover .work-image {
-    opacity: 0.8;
- }
- .work-image {
-    text-align: center; 
-    margin-top: 10px;
-  }
-  .azure {
-    width: 7em;
-  }
- .work-info {
-    padding: 1em;
-    text-align: center;
- }
- .work-category {
-    font-size: 0.8em;
-    color: #000;
- }
- .work-title {
-       text-transform: uppercase;
-       font-weight: 800;
-       margin-top: 10px;
-       text-align: center;
- }
- .more-details{
-    text-decoration: none;
-    color: #042331;
- }
- .more-details:hover {
-    color: #0a5275;
- }
 
  /*------- next ------------*/
  .bars {
     border-style: double;
     border-width: thick;
-    color: white; 
+    border-color: white;
 }
  .btnsearch  { 
     width: 55px;
