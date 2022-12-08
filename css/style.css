@@ -356,8 +356,16 @@ section {
 */
 
 
+/* ---------- next -------*/
 
+#video p{
+    text-align: center;
+    margin-top: 10px;
+}
 
+video {
+    width: 18em;
+}
 .bar {
     background-color: #042331;
     height: 50px;
